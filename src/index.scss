@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; // 10px = 1rem
+  font-family: "Roboto", sans-serif;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 50%;
+  }
+
+  @media screen and (min-width: 1224px) {
+    font-size: 60%;
+  }
+
+  @media screen and (min-width: 1724px) {
+    font-size: 62.5%;
+  }
+}
